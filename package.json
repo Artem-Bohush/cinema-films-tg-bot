@@ -16,6 +16,7 @@
     "nodemon": "2.0.4"
   },
   "dependencies": {
+    "mongoose": "5.9.25",
     "node-telegram-bot-api": "0.50.0"
   }
 }
