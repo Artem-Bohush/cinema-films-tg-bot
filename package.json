@@ -2,20 +2,23 @@
   "name": "cinema-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node ./index.js",
-    "dev": "nodemon ./index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "author": "Artem Bohush <art.bohush@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "7.5.0",
     "eslint-config-airbnb-base": "14.2.0",
-    "eslint-plugin-import": "2.22.0"
+    "eslint-plugin-import": "2.22.0",
+    "nodemon": "2.0.4"
   },
   "dependencies": {
-    "node-telegram-bot-api": "0.50.0",
-    "nodemon": "2.0.4"
+    "geolib": "3.3.1",
+    "lodash": "4.17.19",
+    "mongoose": "5.9.25",
+    "node-telegram-bot-api": "0.50.0"
   }
 }
