@@ -1,6 +1,6 @@
 module.exports = {
   home: {
-    films: 'Now in the cinema',
+    films: 'Now in cinema',
     favourite: 'Favorites',
     cinemas: 'Cinemas',
   },
@@ -9,5 +9,5 @@ module.exports = {
     action: 'Action',
     comedy: 'Comedy',
   },
-  back: 'back to home',
+  back: 'Back to home',
 }

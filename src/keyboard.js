@@ -10,4 +10,13 @@ module.exports = {
     [btns.films.action, btns.films.comedy],
     [btns.back],
   ],
+  cinemas: [
+    [
+      {
+        text: 'Send location',
+        request_location: true,
+      },
+    ],
+    [btns.back],
+  ],
 }

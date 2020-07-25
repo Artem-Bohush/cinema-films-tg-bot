@@ -15,6 +15,9 @@
         "ecmaVersion": 11
     },
     "rules": {
-        "semi": "off"
+        "semi": "off",
+        "no-param-reassign": "warn",
+        "no-use-before-define": "off",
+        "quote-props": "warn"
     }
 }
